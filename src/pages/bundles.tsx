@@ -1,3 +1,11 @@
+import { FishSheet } from "@/components/sheets/fish-sheet";
+import { MuseumSheet } from "@/components/sheets/museum-sheet";
+import { RecipeSheet } from "@/components/sheets/recipe-sheet";
+import {
+  FishType,
+  MuseumItem
+} from "@/types/items";
+import { Recipe } from "@/types/recipe";
 import Head from "next/head";
 
 import achievements from "@/data/achievements.json";
@@ -53,6 +61,9 @@ import { IconSettings } from "@tabler/icons-react";
 import clsx from "clsx";
 import { useEffect, useState } from "react";
 import { isNumber } from "util";
+import fishingData from "@/data/fish.json";
+import recipesData from "@/data/cooking.json";
+import museumData from "@/data/museum.json";
 
 export const ItemQualityToString = {
   "0": "Normal",
@@ -82,6 +93,14 @@ const CommunityCenterRooms: CommunityCenterRoomName[] = [
   "Vault",
   "Bulletin Board",
   "Abandoned Joja Mart",
+];
+
+const fishTankBundles: string[] = [
+  "River Fish",
+  "Lake Fish",
+  "Ocean Fish",
+  "Night Fishing",
+  "Specialty Fish",
 ];
 
 function AccordionSection(props: AccordionSectionProps): JSX.Element {
@@ -479,6 +498,7 @@ export default function Bundles() {
 
   useEffect(() => {
     setBundles(GetActiveBundles(activePlayer));
+    //eslint-disable-next-line
   }, [activePlayer]);
 
   const getAchievementProgress = (name: string) => {
@@ -518,6 +538,24 @@ export default function Bundles() {
 
     return { completed, additionalDescription };
   };
+
+  let fish: FishType | null = null;
+  if (object !== null) {
+    // @ts-ignore
+    fish = fishingData[object.itemID];
+  }
+
+  let recipe: Recipe | null = null;
+  if (object !== null) {
+    // @ts-ignore
+    recipe = recipesData[object.itemID];
+  }
+
+  let mineral: MuseumItem | null = null;
+  if (object !== null) {
+    // @ts-ignore
+    mineral = museumData["minerals"][object.itemID];
+  }
 
   return (
     <>
@@ -643,11 +681,20 @@ export default function Bundles() {
               </AccordionSection>
             );
           })}
-          <BundleSheet
-            open={open}
-            setIsOpen={setIsOpen}
-            bundleItemWithLocation={object}
-          />
+
+          {object && fish && object.itemType === "F" ? (
+            <FishSheet open={open} setIsOpen={setIsOpen} fish={fish} />
+          ): object && recipe && object.itemType === "C" ? (
+            <RecipeSheet open={open} setIsOpen={setIsOpen} recipe={recipe} />
+          ) : object && mineral && object.itemType === "M" ? (
+              <MuseumSheet open={open} setIsOpen={setIsOpen} trinket={mineral} />
+            ): (
+            <BundleSheet
+              open={open}
+              setIsOpen={setIsOpen}
+              bundleItemWithLocation={object}
+            />
+          )}
           <UnblurDialog
             open={showPrompt}
             setOpen={setPromptOpen}

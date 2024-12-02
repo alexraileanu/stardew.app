@@ -1,0 +1,21 @@
+services:
+  web:
+    build: .
+    environment:
+      - DATABASE_URL=mysql://db:db@db:3306/stardewapp
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+  db:
+    container_name: mariadb
+    image: mariadb:lts
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_DATABASE=stardewapp
+      - MYSQL_USER=db
+      - MYSQL_PASSWORD=db
+    ports:
+      - "5432:3306"
+networks:
+  stardewapp:

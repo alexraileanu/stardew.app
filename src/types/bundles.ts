@@ -32,6 +32,7 @@ export type BundleItem = {
   itemID: string;
   itemQuantity: number;
   itemQuality: ItemQuality;
+  itemType: string | undefined | null;
 };
 
 /**

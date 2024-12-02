@@ -61,6 +61,7 @@ export function parseBundles(
       let bundleRequirementsDataString: string = bundleDataSplit[2];
       let bundleRequirementsDataSplit: string[] =
         bundleRequirementsDataString.split(" ");
+      console.log(bundleRequirementsDataSplit);
 
       let colorId: string = bundleDataSplit[3];
 
@@ -84,6 +85,7 @@ export function parseBundles(
             itemID: "-1",
             itemQuantity: itemQuantity,
             itemQuality: itemQuality,
+            itemType: null,
           };
           requiredItems.push(currentBundleItem);
           continue;
@@ -93,6 +95,7 @@ export function parseBundles(
           itemID: itemID,
           itemQuantity: itemQuantity,
           itemQuality: itemQuality,
+          itemType: null,
         };
 
         requiredItems.push(currentBundleItem);

@@ -75,9 +75,9 @@ export async function getUID(
       req,
       res,
       maxAge: 60 * 60 * 24 * 365,
-      domain: parseInt(process.env.NEXT_PUBLIC_DEVELOPMENT!)
-        ? "localhost"
-        : "stardew.app",
+      // domain: parseInt(process.env.NEXT_PUBLIC_DEVELOPMENT!)
+      //   ? "localhost"
+      //   : "stardew.app",
     });
   }
   return uid;
@@ -141,7 +141,7 @@ async function post(req: NextApiRequest, res: NextApiResponse) {
       }
       res.status(200).end();
     } catch (e) {
-      // console.log(e);
+      console.log(e);
       res.status(500).end();
     }
   }

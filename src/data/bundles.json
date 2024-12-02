@@ -760,22 +760,26 @@
         {
           "itemID": "145",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "143",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "706",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "699",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         }
       ],
       "itemsRequired": 4,
@@ -791,22 +795,26 @@
         {
           "itemID": "136",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "142",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "700",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "698",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         }
       ],
       "itemsRequired": 4,
@@ -822,22 +830,26 @@
         {
           "itemID": "131",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "130",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "150",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "701",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         }
       ],
       "itemsRequired": 4,
@@ -853,17 +865,20 @@
         {
           "itemID": "140",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "132",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "148",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         }
       ],
       "itemsRequired": 3,
@@ -879,52 +894,62 @@
         {
           "itemID": "715",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "716",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "717",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "718",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "719",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "720",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "721",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "722",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "723",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         },
         {
           "itemID": "372",
           "itemQuantity": 1,
-          "itemQuality": "0"
+          "itemQuality": "0",
+          "itemType": "F"
         }
       ],
       "itemsRequired": 5,
@@ -943,22 +968,26 @@
             {
               "itemID": "128",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "F"
             },
             {
               "itemID": "156",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "F"
             },
             {
               "itemID": "164",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "F"
             },
             {
               "itemID": "734",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "F"
             }
           ],
           "itemsRequired": 4,
@@ -974,22 +1003,26 @@
             {
               "itemID": "136",
               "itemQuantity": 1,
-              "itemQuality": "2"
+              "itemQuality": "2",
+              "itemType": "F"
             },
             {
               "itemID": "706",
               "itemQuantity": 1,
-              "itemQuality": "2"
+              "itemQuality": "2",
+              "itemType": "F"
             },
             {
               "itemID": "130",
               "itemQuantity": 1,
-              "itemQuality": "2"
+              "itemQuality": "2",
+              "itemType": "F"
             },
             {
               "itemID": "140",
               "itemQuantity": 1,
-              "itemQuality": "2"
+              "itemQuality": "2",
+              "itemType": "F"
             }
           ],
           "itemsRequired": 4,
@@ -1005,22 +1038,26 @@
             {
               "itemID": "162",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "F"
             },
             {
               "itemID": "165",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "F"
             },
             {
               "itemID": "149",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "F"
             },
             {
               "itemID": "800",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "F"
             }
           ],
           "itemsRequired": 2,
@@ -1070,22 +1107,26 @@
             {
               "itemID": "80",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "M"
             },
             {
               "itemID": "86",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "M"
             },
             {
               "itemID": "84",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "M"
             },
             {
               "itemID": "82",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "M"
             }
           ],
           "itemsRequired": 4,
@@ -1304,12 +1345,14 @@
             {
               "itemID": "228",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+              "itemType": "C"
             },
             {
               "itemID": "194",
               "itemQuantity": 1,
-              "itemQuality": "0"
+              "itemQuality": "0",
+                "itemType": "C"
             }
           ],
           "itemsRequired": 6,

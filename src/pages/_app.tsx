@@ -49,6 +49,7 @@ export default function App({ Component, pageProps }: AppProps) {
     }
 
     return;
+    //eslint-disable-next-line
   }, [api.data]);
 
   return (

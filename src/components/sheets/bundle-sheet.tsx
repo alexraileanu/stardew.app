@@ -1,3 +1,4 @@
+import { BooleanCard } from "@/components/cards/boolean-card";
 import { useMediaQuery } from "@react-hook/media-query";
 import Image from "next/image";
 
@@ -9,7 +10,12 @@ import {
   type BundleItemWithLocation,
 } from "@/types/bundles";
 
-import { Dispatch, SetStateAction, useMemo } from "react";
+import {
+  Dispatch,
+  SetStateAction,
+  useMemo,
+  useState
+} from "react";
 
 import { usePlayers } from "@/contexts/players-context";
 
