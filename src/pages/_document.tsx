@@ -9,9 +9,14 @@ export default function Document() {
           src="https://analytics.eu.umami.is/script.js"
           data-website-id="148c90ab-aacc-40b4-b1c7-b4eee4862a7c"
         ></script>
-        <script defer data-domain="stardew.app" src="https://plausible.verbose.faith/js/script.js"></script>
+        <script
+          defer
+          data-domain="stardew.app"
+          src="https://plausible.verbose.faith/js/script.js"
+        ></script>
 
         <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
         <meta
           name="description"
           content="Keep track of your Stardew Valley 1.5 and 1.6 progression. Upload your save file and track your progress towards 100% completion."
